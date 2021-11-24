@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">1.3</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{20A97B30-159C-401C-A213-0F09D1004FEB}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <RootNamespace>TurretsHatePrisoners</RootNamespace>
+        <AssemblyName>TurretsHatePrisoners</AssemblyName>
+        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+        <NoWin32Manifest>False</NoWin32Manifest>
+        <NoStdLib>False</NoStdLib>
+        <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+        <DebugType>None</DebugType>
+        <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+        <TargetFrameworkProfile />
+        <DefineConstants>DEBUG;</DefineConstants>
+        <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+        <DebugSymbols>true</DebugSymbols>
+        <Optimize>True</Optimize>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <ConsolePause>false</ConsolePause>
+        <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+        <Prefer32Bit>false</Prefer32Bit>
+        <DebugType>portable</DebugType>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+        <BaseAddress>4194304</BaseAddress>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <RegisterForComInterop>False</RegisterForComInterop>
+        <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+        <FileAlignment>4096</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == '1.3' ">
+      <OutputPath>..\Assemblies\</OutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="src\TurretsHatePrisoners.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+    <ItemGroup>
+        <Reference Include="0Harmony, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <HintPath>lib\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp" Condition="'$(Configuration)'=='1.3'">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>lib\Assembly-CSharp-1.3.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="System">
+            <HintPath>lib\System.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
+        <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+        <Reference Include="UnityEngine.IMGUIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+            <Private>False</Private>
+            <HintPath>lib\UnityEngine.IMGUIModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+            <SpecificVersion>False</SpecificVersion>
+            <HintPath>lib\UnityEngine.TextRenderingModule.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+</Project>

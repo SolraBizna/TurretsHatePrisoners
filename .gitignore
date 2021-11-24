@@ -1,0 +1,7 @@
+Assemblies
+!Assemblies/0Harmony.dll
+!Assemblies/TurretsHatePrisoners.dll
+Source/lib
+Source/obj
+.idea
+*.DotSettings.user

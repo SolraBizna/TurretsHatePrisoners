@@ -1,0 +1,13 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurretsHatePrisoners", "TurretsHatePrisoners.csproj", "{20A97B30-159C-401C-A213-0F09D1004FEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1.3|Any CPU = 1.3|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20A97B30-159C-401C-A213-0F09D1004FEB}.1.3|Any CPU.ActiveCfg = 1.3|Any CPU
+		{20A97B30-159C-401C-A213-0F09D1004FEB}.1.3|Any CPU.Build.0 = 1.3|Any CPU
+	EndGlobalSection
+EndGlobal
