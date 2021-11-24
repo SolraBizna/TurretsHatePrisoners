@@ -6,7 +6,7 @@
   </supportedVersions>
   <packageId>name.bizna.rimworld.TurretsHatePrisoners</packageId>
   <author>Solra Bizna</author>
-  <description>Until 1.3, turrets would happily attack escaping prisoners. Something in 1.3 changed that. This mod makes it so that any turret will consider any escaping prisoner, rebelling slave, or "panic-fleeing" pawn as a valid target.
+  <description>Until 1.3, turrets would happily attack escaping prisoners. Something in 1.3 changed that. This mod makes it so that turrets will consider escaping prisoners, rebelling slaves, or "panic-fleeing" pawns as valid targets.
 
-I spent much more time writing this than testing it, but it seems to work. Enjoy.</description>
+I spent much more time writing this than testing it, but it seems to work on escaping prisoners at least. Enjoy.</description>
 </ModMetaData>
