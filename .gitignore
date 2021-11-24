@@ -1,4 +1,5 @@
-Assemblies
+Assemblies/*.dll
+Assemblies/*.pdb
 !Assemblies/0Harmony.dll
 !Assemblies/TurretsHatePrisoners.dll
 Source/lib
